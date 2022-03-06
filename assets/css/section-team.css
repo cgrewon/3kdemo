@@ -1,0 +1,88 @@
+.section-team{
+    padding: 100px 115px;
+    background-color: rgba(43,179,77,0.62);
+}
+
+@media (max-width: 1024px) {
+    .section-team{
+        padding: 70px 90px;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-team{
+        padding: 70px 20px;
+    }
+}
+
+
+.section-team .p-wrapper{
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-team h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.section-team p{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.section-team h2.artist{
+    margin-top: 80px;
+
+}
+.section-team hr{
+    margin: 40px 0;
+}
+.card-wrappper{
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 45px 24px;
+    
+}
+.card-wrappper img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 2mm 2mm rgba(32, 32, 32, 0.486));
+}
+
+
+.card-wrappper .skill{
+    font-size: 15px;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-wrappper .username{
+    font-size: 22px;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-wrappper .where{
+    font-size: 14px;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1010px) {
+    .card-wrappper{
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

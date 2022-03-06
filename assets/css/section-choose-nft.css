@@ -1,0 +1,166 @@
+.section-choose-nft {
+  background-image: url("../images/slide_product_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.section-choose-nft h2 {
+  color: white;
+  text-align: center;
+}
+
+.item {
+  width: 25%;
+  aspect-ratio: 1;
+  color: white;
+  margin-left: 10px;
+}
+.item img{
+    width: 100%;
+    object-fit: cover;
+}
+#nft-slider {
+  position: relative;
+}
+@media (max-width: 767px) {
+  #nft-slider {
+    border-color: transparent;
+  }
+}
+#nft-slider .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  #nft-slider .MS-content {
+    margin: 0;
+  }
+}
+#nft-slider .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  border-right: none;
+  width: 25%;
+}
+@media (max-width: 1200px) {
+  #nft-slider .MS-content .item {
+    width: 30%;
+  }
+}
+@media (max-width: 992px) {
+  #nft-slider .MS-content .item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 767px) {
+  #nft-slider .MS-content .item {
+    width: 50%;
+  }
+}
+#nft-slider .MS-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+#nft-slider .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 35px;
+}
+@media (max-width: 767px) {
+  #nft-slider .MS-controls button {
+    display: none;
+  }
+}
+#nft-slider .MS-controls button:hover {
+  cursor: pointer;
+}
+#nft-slider .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 992px) {
+  #nft-slider .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#nft-slider .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 992px) {
+  #nft-slider .MS-controls .MS-right {
+    right: -2px;
+  }
+}
+
+
+
+.section-rarity{
+    text-align: center;
+    background-color: #efb639;
+    padding: 20px;
+}
+.section-rarity h2{
+  font-size: 45px;
+}
+.section-rarity .row .col-md-4 img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .section-rarity .row .col-md-4 img {
+    display: none;
+  }
+  .section-rarity .desc{
+    display: none;
+  }
+
+  .section-rarity .rarity-row{
+    display: flex !important;
+    flex-direction: column !important;
+
+  }
+}
+
+.section-rarity  p {
+    font-size: 30px;
+}
+.section-rarity  p span{
+    color: #661f1c;
+}
+
+.section-rarity .row {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-rarity .desc{
+    font-size: 16px;
+    color: #661f1c;
+    text-align: start;
+}
+
+.section-rarity .bottom-desc{
+    margin-top: 20px;
+}
+.section-rarity .bottom-desc p{
+    font-size: 20px;
+    color: black;
+    text-align: start;
+}
+
+

@@ -1,0 +1,45 @@
+.section-back-in-time{
+    background-image: url('../images/light_gradient_bands_bg.jpg');   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 130px;
+
+}
+
+@media (max-width: 930px) {
+    .section-back-in-time{
+        padding: 80px;
+    }
+}
+@media (max-width: 520px) {
+    .section-back-in-time{
+        padding: 55px;
+    }
+}
+@media (max-width: 486px) {
+    .section-back-in-time{
+        padding: 30px;
+    }
+}
+
+.section-back-in-time .container {
+
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-back-in-time .container h3{
+    text-align: center;
+    color: #2bb34d;
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+
+.section-back-in-time .container p{
+    
+    font-size: 22px;
+}
+

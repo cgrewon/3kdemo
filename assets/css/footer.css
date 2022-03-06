@@ -1,0 +1,97 @@
+footer {
+    padding: 100px 120px 0 120px;
+    background: black;
+   
+}
+
+footer .container{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .container label{
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+    position: relative;
+}
+
+footer .form-group .small-desc{
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer .form-group label.required:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: -3px;
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+footer .form-group .btn-submit {
+    background-color: #ff7a59;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    transition: all .15s linear;
+    background-color: #ff7a59;
+    border-color: #ff7a59;
+    color: #fff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer .form-group .btn-submit:hover{
+    background-color: #faa792;
+}
+
+footer a.terms{
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+}
+
+footer .get_social{
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+}
+footer  a.terms:hover{
+    color: rgb(20, 156, 65);
+}
+
+footer .social-icons a{
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+}
+
+footer .copy-right{
+    
+    color: gray;
+}
+
+@media (max-width: 1024px) {
+    footer{
+        padding: 70px 60px 0 60px;
+    }
+}
+@media (max-width: 786px) {
+    footer{
+        padding: 70px 30px 0 30px;
+    }
+}
